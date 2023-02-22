@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tanzu-simple-gateway
+  description: Tanzu Simple Gateway - Java Spring Boot
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-simple-gateway'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
