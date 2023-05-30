@@ -9,7 +9,7 @@ metadata:
     - web
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=btan-simple-gateway'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-simple-gateway'
 spec:
   type: service
   lifecycle: experimental
