@@ -1,9 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tanzu-simple-gateway
-  description: Tanzu Simple Gateway - Java Spring Boot
-  tags:
+  name: btan-simple-gateway
+  description: Btan simple gateway
     - app-accelerator
     - java
     - spring
@@ -16,4 +15,4 @@ spec:
   lifecycle: experimental
   owner: default-team
   dependsOn:
-    - resource:default/artists-db
+    - resource:default/simple-mongo-db
